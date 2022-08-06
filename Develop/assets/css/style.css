@@ -68,7 +68,7 @@ a {
 /*CSS vaule for pseudo code when user is hovering over nav items:*/
 .navMoudles a:hover
 {
-    text: bold;
+   
     color: goldenrod;
 
 }
@@ -76,7 +76,7 @@ a {
 /*CSS vaule for pseudo code after they click on nav items:*/
 .navMoudles a:visited
 {
-    text: bold;
+   
     color: green;
 
 }
