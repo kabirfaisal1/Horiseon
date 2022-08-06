@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+/*CSS vaule for body  tag: this property will controll the background color
+of the app */
+body {
+    background-color: #d9dcd6;
+}
+
+
+/*CSS vaule for header class: this property will controll header class font, background color and padding for the app */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*CSS vaule for header class h1 tag: this property will controll how is h1 items are displayed and font size*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*CSS vaule for header class (h1) tag and .seo class: this property will controll how is h1 text class
+seo color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+/*CSS vaule for header class (div) tag: this property will controll header div tag based on its padding
+margin, font style, size and control how header div item will be displayed based on browser size by flexing */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+/*CSS vaule for header class (div, ul) tag: this property will controll header ul tag flex style and list style  */
+.header div ul {
+    list-style-type: none;
+    flex-direction: row;
+}
+
+/*CSS vaule for header class (div, ul,li) tag: this property will controll .header div ul li display, 
+margin side and flex */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex-wrap: wrap;
+}
+
+/*CSS vaule for a (link) tag class: this property will controll <a></a> item by color, text and flex */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+/*CSS vaule for p (paragraph) tag class: this property will controll paragraph font size and screen size display */
+p {
+    font-size: 16px;
+    flex-wrap:wrap;
+}
+
+/*CSS vaule for .hero class: this property will controll height: 
+    width:margin-bottom: background-image: background-size:background-position: flex-direction: */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+}
+
+/*CSS vaule for .float-left class: this property will controll float, margin and the wrap of screen display */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+
+/*CSS vaule for .float-right class: this property will controll float, margin and the wrap of screen display */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    flex-wrap: wrap;
+}
+
+/*CSS vaule for .content class: this property will controll the content width, display and margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*CSS vaule for .benefits class: this property will controll the benefits section */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    flex-direction: row;
+}
+
+/*Following area controll the content section and benefits section becasue they all are sharing same vaule I combined them to avoid duplicates */
+/*CSS vaule for .benefit-lead,.benefit-brand,.benefit-cost class 
+/*Broken all this item in to "benefitsSection" Section for more reuseable maintains */
+*/
+.benefitsSection  {
+    margin-bottom: 32px;
+    color: #ffffff;
+    flex-direction: row;
+}
+/*CSS vaule for ..benefit-lead h3, .benefit-brand h3,.benefit-cost h3 : class and its tag h3*/
+.benefitsSection  h3  {
+    margin-bottom: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+/*CSS vaule for .benefit-lead img, .benefit-cost img ,.benefit-brand img class and img tag */
+.benefitsSection img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    flex-direction: row;
+}
+/*Broken all this item in to Section for more reuseable maintains */
+/*CSS vaule for .search-engine-optimization,.online-reputation-management,.social-media-marketing class
+in to Section class=.contentSection */
+.content .contentSection {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    flex-direction: column;
+}
+/*CSS vaule for .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img class and img tag
+in to Section class=.contentSection */
+.content .contentSection img {
+    max-height: 200px;
+   flex-direction: row;
+}
+/*CSS vaule for .search-engine-optimization h2,.social-media-marketing h2,.online-reputation-management h2 : class and its tag h2
+in to Section class=.contentSection*/
+.content .contentSection h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    flex-direction: row;
+}
+
+/*CSS vaule for footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*CSS vaule for footer h2 tags*/
+.footer h2 {
+    font-size: 20px;
+}
