@@ -25,19 +25,19 @@ THEN I find a concise, descriptive title
 When user click on Search Engine optimization, it was not navigating to content section on the home page.
 ### Fix
 search-engine-optimization was missing id attribute that was part was Search Engine optimization navigation unorder list. So I added id attribute to over come the navigation issue 
-![Link Fixed](../Horiseon/Develop/assets/images/FixedImg/WebscreenFix.png)
+![Link Fixed](../Horiseon/Develop/assets/images/FixedImg/WebscreenFix.jpg)
 
 
 ## Other improvemant 
 ### 1 
 I saw lot of duplicated code in css style so I grouped the items by class based on common style vaules
-![CssStyleScreen code](../Horiseon/Develop/assets/images/FixedImg/CssStyleScreen.png)
+![CssStyleScreen code](../Horiseon/Develop/assets/images/FixedImg/CssStyleScreen.jpg)
 
 ### 2 
 I added specifies an alternate text for an image
-![imgAlt code](../Horiseon/Develop/assets/images/FixedImg/imgAlt.png)
+![imgAlt code](../Horiseon/Develop/assets/images/FixedImg/imgAlt.jpg)
 
 ### 3
 I added nav tag for section that provide navigation links, either within the current document or to other documents.
-![headerNav code](../Horiseon/Develop/assets/images/FixedImg/headerNav.png)
+![headerNav code](../Horiseon/Develop/assets/images/FixedImg/headerNav.jpg)
 
