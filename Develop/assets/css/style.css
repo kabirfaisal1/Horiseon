@@ -65,6 +65,23 @@ a {
     flex-wrap: wrap;
 }
 
+/*CSS vaule for pseudo code when user is hovering over nav items:*/
+.navMoudles a:hover
+{
+    text: bold;
+    color: goldenrod;
+
+}
+
+/*CSS vaule for pseudo code after they click on nav items:*/
+.navMoudles a:visited
+{
+    text: bold;
+    color: green;
+
+}
+
+
 /*CSS vaule for p (paragraph) tag class: this property will controll paragraph font size and screen size display */
 p {
     font-size: 16px;
@@ -121,7 +138,7 @@ p {
 /*Following area controll the content section and benefits section becasue they all are sharing same vaule I combined them to avoid duplicates */
 /*CSS vaule for .benefit-lead,.benefit-brand,.benefit-cost class 
 /*Broken all this item in to "benefitsSection" Section for more reuseable maintains */
-*/
+
 .benefitsSection  {
     margin-bottom: 32px;
     color: #ffffff;
